@@ -1,9 +1,6 @@
-
 #include "main.h"
 #include <DueTimer.h>
 
-
-using namespace std;
 
 uint32_t timer1;
 uint32_t timer2;
@@ -33,6 +30,7 @@ void device_states(){
 
 void setup()
 { 
+    // test
     pinMode(LED_SHIELD, OUTPUT);
     digitalWrite(LED_SHIELD, HIGH);
 
