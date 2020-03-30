@@ -17,7 +17,7 @@ public:
     CDHD_Drive servo = {1}; // Create an object of CDHD_Drive
 
     // canopen
-    bool Gateway::fetch_states();
+    bool fetch_states();
     CAN_FRAME process_canopen(CAN_FRAME &f);
 
 
